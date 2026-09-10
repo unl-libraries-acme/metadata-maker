@@ -119,15 +119,15 @@ function getnamesubfields(lcuri){
 function generateInstitutionInfo() {
 	var output = {
 		//040 $a, 040 $c
-		marc: 'UIU',
+		marc: 'LDL',
 		mods: {
-			physicalLocation: 'University of Illinois at Urbana-Champaign, Library',
-			recordContentSource: 'UIU'
+			physicalLocation: 'University of Nebraska-Lincoln Libraries',
+			recordContentSource: 'LDL'
 		},
 		//"seller" info
 		html: {
-			url: 'http://id.loc.gov/authorities/names/n79066210',
-			name: 'University of Illinois at Urbana-Champaign'
+			url: 'http://id.loc.gov/authorities/names/n80022598',
+			name: 'University of Nebraska-Lincoln'
 		}
 	};
 
